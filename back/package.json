@@ -1,0 +1,32 @@
+{
+  "name": "eatme",
+  "version": "1.0.0",
+  "description": "restiful api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Quesses/eatme-back.git"
+  },
+  "author": "Matthew",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Quesses/eatme-back/issues"
+  },
+  "homepage": "https://github.com/Quesses/eatme-back#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "moment": "^2.27.0",
+    "mysql2": "^2.1.0",
+    "sequelize": "^6.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

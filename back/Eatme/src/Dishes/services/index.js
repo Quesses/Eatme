@@ -1,0 +1,6 @@
+module.exports.createDishService = require('./createDishService')
+module.exports.getDishesService = require('./getDishesService')
+module.exports.connectDishWithIngredientService = require('./connectDishWithIngredientService')
+module.exports.updateDishWithIngredientConnectionsService = require('./updateDishWithIngredientConnectionsService')
+module.exports.getDishByIdService = require('./getDishByIdService')
+module.exports.removeDishByIdService = require('./removeDishByIdService')
